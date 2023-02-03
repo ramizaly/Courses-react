@@ -1,0 +1,52 @@
+.semName
+{
+    text-align: center;
+    margin: 0;
+    background-color: #a37cff;
+    border-radius: 8px 8px 0px 0px;
+}
+.semName h2 img{
+    height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.semName h2{
+    margin-top: 0;
+    color: rgb(254, 252, 252);
+}
+.headers{
+    font-weight: bold;
+    margin: 0.3rem 1rem;
+}
+
+
+
+.headers .creditHours{
+   float: right;
+   
+}
+.headers .courseTitle{
+    margin-right: 0;
+}
+
+
+
+@media (max-width : 575.5px){
+    .headers .creditHours{
+        display: none;
+    }
+    .headers .courseTitle{
+        display: none;
+    }
+    .headers .courseCode{
+        display: none;
+    }
+ 
+   
+}
+
+@media (max-width : 450px){
+    .semName h2 img{
+        display: none;
+    }
+
+}

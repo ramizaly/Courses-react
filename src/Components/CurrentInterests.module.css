@@ -1,0 +1,39 @@
+.InterestContainer{
+    background-color: white;
+    border-radius: 7px;
+    max-width: 65rem !important;
+    padding: 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    margin: 0 auto !important;
+}
+
+.header{
+    background-color: #a37cff;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    color: white;
+}
+@media (max-width : 767.5px){
+    .InterestContainer{
+        max-width: 34rem !important;
+    }
+}
+
+
+.btn{
+    width: 7rem;
+    font-size: 1.3rem;
+    display: block !important;
+    margin: 1rem auto;
+    border: 1px solid #a37cff;
+    border-radius: 22px;
+    background-color: transparent;
+    transition: all .2s ease-in;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.btn:hover,
+.btn:active{
+    background-color: #a37cff;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.btn{
+    width: 7rem;
+    font-size: 1.3rem;
+    display: block !important;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 22px;
+    background-color: #a17afd;
+    color: white;
+    top: 0;
+    transition: all ease 0.5s;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.btn:hover,
+.btn:active{
+   top: -10px;
+   background-color: #976ef9
+}
+.optContainer{
+    margin-top: -3rem !important;
+}

@@ -1,0 +1,23 @@
+.courses{
+    margin: 0.3rem 1rem;
+    
+}
+
+.courses .creditHours{
+    float: right;
+    margin-right: 1rem;
+}
+.courses .courseName{
+    margin-right: 0rem;
+}
+
+
+@media (max-width : 575.5px) {
+    .courses .creditHours {
+        display: none;
+    }
+    .courses .courseNo{
+        font-weight: bold;
+    }
+    
+}
